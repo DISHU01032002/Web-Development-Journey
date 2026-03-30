@@ -1,0 +1,126 @@
+*{ margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      }
+body{ font-family: Arial; }
+
+
+nav{display: flex;
+
+     background-color: white;
+     color: black;
+   padding: 20px;
+   justify-content: space-between;}
+   
+ 
+
+ul{ display: flex;
+      gap: 20px;}
+
+/* .first{ padding: 20px;} */
+
+.navquote{ background-color: green;
+          color: white;
+           border-radius: 5px;
+      padding: 4px;
+    box-shadow: 0 4px 8px;}
+
+
+.dfirst{ position: relative;
+      background: linear-gradient( to right bottom, rgb(177, 216, 228),rgb(254, 253, 253));
+    padding: 30px;}
+
+.sd{ padding: 20px;
+      margin: 20px;
+gap: 20px;}
+
+.dfb{ background-color: green;
+       color: white;
+      padding: 10px;
+       border-radius: 10px;}
+.dsb{ background-color: white ;
+     color: black;
+     padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;}
+ 
+.image{ margin: 50px;
+      height: 60%;
+      width: 30%;
+      border-radius: 30px;  
+      position: absolute;
+       bottom: 0;
+       right: 0;}
+      
+    
+.ul2{ font-weight: bold;
+      background-color: rgb(254, 251, 251);
+      padding: 20px;
+    justify-content: space-evenly;}
+
+.aboutdiv{  background-color: rgb(244, 241, 241);
+       position: relative;
+            padding: 40px;}
+
+.simage{  margin: 30px;
+       position: absolute;
+       right: 0;
+       bottom: 0;
+       border-radius: 20px;
+       box-shadow: 0 4px 8px;}
+
+.service{ text-align: center;
+      padding: 60px;
+   background-color: aliceblue;}
+    
+
+.services{margin-top: 20px; 
+      display: flex;
+      justify-content: center;
+      gap: 30px;}
+
+.service1{background-color: white;
+   padding: 20px;
+   border-radius: 10px;
+    box-shadow: 0 4px 8px;}
+h3{ padding-bottom: 5px;}
+img{ padding-bottom: 10px;}
+ 
+.end{ 
+      padding: 60px;
+   display: flex;
+ background: linear-gradient(to right bottom , rgb(192, 227, 238),white);}
+
+h1{ margin-bottom: 30px;}
+.end1{ padding-left: 70px;}
+         
+.box{ position: absolute;
+      background-color: rgb(225, 238, 252);
+      padding: 30px;
+      right: 0;
+      margin-right: 10%;
+       border-radius: 20px;
+      box-shadow: 0 4px 8px;}
+
+input { height: 30px;
+            width: 300px;
+         resize: none;}
+
+textarea{ padding-top: 10px;
+       height: 50px;
+            width: 300px;
+            font-size: 16px;
+         resize: none;
+        }
+
+   
+.ebutton{ margin-left: 93px;
+      align-items: center;
+       background-color: green;
+    color: white;
+  padding: 8px 15px 8px 15px ;
+ font-weight: bold;
+border-radius: 10px;
+box-shadow: 0 4px 8px;}
+    
+      
